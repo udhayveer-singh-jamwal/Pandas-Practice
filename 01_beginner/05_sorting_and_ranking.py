@@ -7,4 +7,6 @@ data = {
 
 df = pd.DataFrame(data)
 df_sorted = df.sort_values(by="Performance", ascending=False)
+df["Rank"] = df["Performance"].rank(ascending=False)
 print("Sorted Data:\n", df_sorted)
+print("\nWith Rank:\n", df)
