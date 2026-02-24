@@ -8,4 +8,4 @@ data = {
 df = pd.DataFrame(data)
 filtered = df[(df["Age"] > 25) & (df["Salary"] > 50000)]
 print("Original Data:\n", df)
-print("\nFiltered Data:\n", filtered)
+print("Filtered Data:\n", filtered)
