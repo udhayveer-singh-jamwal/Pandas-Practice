@@ -8,4 +8,5 @@ data = {
 
 df = pd.DataFrame(data)
 df.rename(columns={"Salary": "Monthly_Salary"}, inplace=True)
+df.drop("Age", axis=1, inplace=True)
 print(df)
