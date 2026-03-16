@@ -14,4 +14,4 @@ pivot = pd.pivot_table(
     columns="Product",
     aggfunc=["sum", "mean"]
 )
-print(pivot))
+print(pivot)
